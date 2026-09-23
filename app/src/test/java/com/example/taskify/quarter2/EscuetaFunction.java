@@ -27,4 +27,4 @@ public class EscuetaFunction {
         System.out.println("If I could, I would eat " + favFood + " every single day!");
 
     }
-    }
+}
