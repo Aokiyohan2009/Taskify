@@ -12,7 +12,7 @@ public class EscuetaFunction {
 
         String petName = "Tintin";
 
-        String favFood = "Tocino";
+        String favFood = "Egg";
 
         int myAge = 16;
 
