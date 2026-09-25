@@ -1,41 +1,46 @@
 package com.AccessGymTest.quarter2;
 
 import static org.junit.jupiter.api.Assertions.*;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.import java.util.Scanner;
 
-import java.io.ByteArrayInputStream;
-import java.util.Scanner;
+public class GymMenu {
 
-public class AccessGymTest {
+    public void start(Scanner scanner) {
 
-    @Test
-    public void testGymFlow() {
-        StringBuilder automatedInput = new StringBuilder();
+        boolean running = true;
 
-        System.out.println("--- GENERATING GYM DATA---");
+        while (running) {
 
-        // Step 1: Enter gym floor option
-        automatedInput.append("1\n"); // Choose Enter Gym
+            System.out.println("\n=== GYM MENU ===");
+            System.out.println("1. Enter Gym");
+            System.out.println("2. Hire Trainer");
+            System.out.println("3. Exit");
 
-        // Step 2: Test VIP membership tier (Level 1)
-        automatedInput.append("2\n"); // Choose Hire Trainer
-        automatedInput.append("1\n"); // Enter Level 1// (Expected: Trainer Assigned)
+            int choice = scanner.nextInt();
 
-        // Step 3: Test Basic membership tier (Level 2)
-        automatedInput.append("2\n"); // Choose Hire Trainer
-        automatedInput.append("2\n"); // Enter level 2 (Expected: Upgraded Required)
+            if (choice == 1) {
+                System.out.println("You entered the gym.");
+                System.out.println("Choose membership level:");
+                System.out.println("1. Level 1");
+                System.out.println("2. Level 2");
 
-        // Step 4: Exit system
-        automatedInput.append("3\n"); // Choose Exit
+                int level = scanner.nextInt();
 
-        System.out.println("--- TEST DATA GENERATION COMPLETE ---\n");
+                if (level == 1) {
+                    System.out.println("Level 1 membership selected.");
+                    System.out.println("Trainer Assigned");
+                } else if (level == 2) {
+                    System.out.println("Level 2 membership selected.");
+                    System.out.println("Upgrade Required");
+                }
 
-        ByteArrayInputStream inputStream =
-                new ByteArrayInputStream(automatedInput.toString().getBytes());
+            } else if (choice == 2) {
+                System.out.println("Trainer selected.");
 
-        Scanner scanner = new Scanner(inputStream);
-
-        GymMenu gymSystem = new AccessGy();
-        gymSystem.start(scanner);
+            } else if (choice == 3) {
+                System.out.println("Exiting gym system.");
+                running = false;
+            }
+        }
     }
 }
