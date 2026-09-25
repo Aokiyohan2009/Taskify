@@ -7,6 +7,7 @@ public class GymMenu {
 
     public void start(Scanner scanner) {
 
+
         boolean running = true;
 
         while (running) {
