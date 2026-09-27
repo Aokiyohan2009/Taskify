@@ -9,10 +9,11 @@ public class ArcadeCounterTest {
             choice = scanner.nextInt();
             switch (choice) {
                 case 1:
-                    System.out.println("Tokens bought");
+                    break;
+                case 2:
+                    int tickets = scanner.nextInt();
                     break;
                 case 3:
-                    System.out.println("Exiting system");
                     break;
             }
         } while (choice != 3);
