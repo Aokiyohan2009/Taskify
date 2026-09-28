@@ -6,7 +6,7 @@ public class MiniPeta1 {
         // --- 1. THE INPUT (Storing your personal details in variables)---
         String myName = "Vi";
         String petName = "Sophiee";
-        String favFood = "Pizza";
+        String favFood = "Pizza!";
         int myAge = 16;
 
         // --- 2. THE OUTPUT (Printing to the console) ---
