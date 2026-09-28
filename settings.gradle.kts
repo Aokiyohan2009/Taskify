@@ -24,4 +24,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "Quarter2"
 include(":app")
- 
