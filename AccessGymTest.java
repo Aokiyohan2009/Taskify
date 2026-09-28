@@ -1,40 +1,17 @@
-package com.AccessGymTest.practicalexam;
-public void start(Scanner scanner) {
+import java.util.Scanner;
 
+public class GymSystem {
 
-    boolean running = true;
+    public void start(Scanner scanner) {
 
-    while (running) {
+    }
 
-        System.out.println("\n=== GYM MENU ===");
-        System.out.println("1. Enter Gym");
-        System.out.println("2. Hire Trainer");
-        System.out.println("3. Exit");
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
-        int choice = scanner.nextInt();
+        GymSystem gym = new GymSystem();
+        gym.start(scanner);
 
-        if (choice == 1) {
-            System.out.println("You entered the gym.");
-            System.out.println("Choose membership level:");
-            System.out.println("1. Level 1");
-            System.out.println("2. Level 2");
-
-            int level = scanner.nextInt();
-
-            if (level == 1) {
-                System.out.println("Level 1 membership selected.");
-                System.out.println("Trainer Assigned");
-            } else if (level == 2) {
-                System.out.println("Level 2 membership selected.");
-                System.out.println("Upgrade Required");
-            }
-
-        } else if (choice == 2) {
-            System.out.println("Trainer selected.");
-
-        } else if (choice == 3) {
-            System.out.println("Exiting gym system.");
-            running = false;
-        }
+        scanner.close();
     }
 }
