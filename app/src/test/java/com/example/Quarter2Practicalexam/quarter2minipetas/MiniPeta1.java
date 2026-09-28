@@ -4,7 +4,7 @@ public class MiniPeta1 {
     @Test
     public void printMyProfile() {
         // --- 1. THE INPUT (Storing your personal details in variables)---
-        String myName = "Vi!";
+        String myName = "Vi";
         String petName = "Sophiee";
         String favFood = "Pizza!";
         int myAge = 16;
