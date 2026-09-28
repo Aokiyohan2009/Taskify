@@ -1,11 +1,19 @@
+<<<<<<< HEAD
 package com.example.Quarter2Practicalexam;
+=======
+package com.example.Quarter2Practicalexam
+
+>>>>>>> origin/master
 import java.util.Scanner;
 
 public class AccessGymTest {
 
     public void start(Scanner scanner) {
 
+<<<<<<< HEAD
         // Commit 2: Add gym menu and user choices
+=======
+>>>>>>> origin/master
         boolean running = true;
 
         while (running) {
@@ -15,6 +23,7 @@ public class AccessGymTest {
             System.out.println("2. Hire Trainer");
             System.out.println("3. Exit");
 
+<<<<<<< HEAD
             System.out.print("Enter your choice: ");
             int choice = scanner.nextInt();
 
@@ -31,6 +40,8 @@ public class AccessGymTest {
             } else {
                 System.out.println("Invalid choice.");
             }
+=======
+>>>>>>> origin/master
         }
     }
 }
