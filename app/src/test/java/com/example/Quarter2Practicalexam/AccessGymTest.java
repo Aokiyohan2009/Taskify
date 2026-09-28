@@ -2,6 +2,8 @@ package com.example.Quarter2Practicalexam;
 
 import java.util.Scanner;
 
+
+
 public class AccessGymTest {
 
     public void start(Scanner scanner) {
@@ -20,10 +22,45 @@ public class AccessGymTest {
             if (choice == 1) {
 
                 System.out.println("You selected Enter Gym.");
+                System.out.println("Choose membership level:");
+                System.out.println("1. Level 1 - $50");
+                System.out.println("2. Level 2 - $80");
+
+                int level = scanner.nextInt();
+
+                if (level == 1) {
+
+                    double membershipFee = 50.00;
+                    double trainerFee = 20.00;
+                    double total = membershipFee + trainerFee;
+
+                    System.out.println("Level 1 membership selected.");
+                    System.out.println("Membership Fee: $" + membershipFee);
+                    System.out.println("Trainer Fee: $" + trainerFee);
+                    System.out.println("Total: $" + total);
+
+                } else if (level == 2) {
+
+                    double membershipFee = 80.00;
+                    double trainerFee = 20.00;
+                    double total = membershipFee + trainerFee;
+
+                    System.out.println("Level 2 membership selected.");
+                    System.out.println("Membership Fee: $" + membershipFee);
+                    System.out.println("Trainer Fee: $" + trainerFee);
+                    System.out.println("Total: $" + total);
+
+                } else {
+
+                    System.out.println("Invalid membership level.");
+                }
 
             } else if (choice == 2) {
 
-                System.out.println("You selected Hire Trainer.");
+                double trainerFee = 20.00;
+
+                System.out.println("Trainer selected.");
+                System.out.println("Trainer Fee: $" + trainerFee);
 
             } else if (choice == 3) {
 
@@ -33,7 +70,6 @@ public class AccessGymTest {
             } else {
 
                 System.out.println("Invalid choice.");
-
             }
         }
     }
