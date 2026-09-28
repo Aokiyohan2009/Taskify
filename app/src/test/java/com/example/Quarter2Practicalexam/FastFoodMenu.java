@@ -12,7 +12,7 @@ public class FastFoodMenu {
 
         StringBuilder automatedInput = new StringBuilder();
 
-        System.out.println("--- GENERATING FAST FOOD TEST DATA ---");
+        System.out.println("--- GENERATING FAST FOOD TEST DATA. ---");
 
         // Step 1: Order Burger as Combo
         automatedInput.append("1\n"); // Choose Order Burger
