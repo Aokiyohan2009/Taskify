@@ -2,8 +2,6 @@ package com.example.Quarter2Practicalexam;
 
 import java.util.Scanner;
 
-
-
 public class AccessGymTest {
 
     public void start(Scanner scanner) {
@@ -16,15 +14,17 @@ public class AccessGymTest {
             System.out.println("1. Enter Gym");
             System.out.println("2. Hire Trainer");
             System.out.println("3. Exit");
+            System.out.print("Enter choice: ");
 
             int choice = scanner.nextInt();
 
             if (choice == 1) {
 
-                System.out.println("You selected Enter Gym.");
+                System.out.println("\nYou entered the gym.");
                 System.out.println("Choose membership level:");
                 System.out.println("1. Level 1 - $50");
                 System.out.println("2. Level 2 - $80");
+                System.out.print("Enter level: ");
 
                 int level = scanner.nextInt();
 
@@ -59,18 +59,20 @@ public class AccessGymTest {
 
                 double trainerFee = 20.00;
 
-                System.out.println("Trainer selected.");
+                System.out.println("\nTrainer selected.");
                 System.out.println("Trainer Fee: $" + trainerFee);
 
             } else if (choice == 3) {
 
-                System.out.println("Exiting gym system.");
+                System.out.println("\nExiting gym system.");
                 running = false;
 
             } else {
 
-                System.out.println("Invalid choice.");
+                System.out.println("\nInvalid choice. Please try again.");
             }
         }
+
+        System.out.println("Thank you for using the Gym System!");
     }
 }
