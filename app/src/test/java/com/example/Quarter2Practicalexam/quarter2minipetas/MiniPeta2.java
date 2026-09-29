@@ -8,7 +8,7 @@ public class MiniPeta2 {
         // --- 1. THE INPUT (Storing your personal details in variables) ---
         String myName = "Vince Kyle A. Nolasco!";
         String nickName = "Vi,";
-        String favGame = "Valorant";
+        String favGame = "Valorant!";
         String FavColor = "Purple";
         int myAge = 16;
 
