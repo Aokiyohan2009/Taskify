@@ -18,17 +18,17 @@ public class MiniPeta3DUECategory {
 
         // RED: 1-3 days before due date
         if (daysUntilDue >= 1 && daysUntilDue <= 3) {
-            return "RED";
+            return "RED ZONE WARNING!";
         }
 
         // YELLOW: 4-6 days before due date
         else if (daysUntilDue >= 4 && daysUntilDue <= 6) {
-            return "YELLOW";
+            return "YELLOW ZONE!";
         }
 
         // GREEN: 7-10 days before due date
         else if (daysUntilDue >= 7 && daysUntilDue <= 10) {
-            return "GREEN";
+            return "GREEN ZONE";
         }
 
         // Due today
