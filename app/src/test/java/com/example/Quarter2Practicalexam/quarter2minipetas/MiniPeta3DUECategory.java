@@ -6,12 +6,14 @@ import java.time.temporal.ChronoUnit;
 import java.util.Scanner;
 
 public class MiniPeta3DUECategory {
-@Test
+
+    // Determines the category based on the number of days
+    // remaining before the due date.
     public static String getCategory(LocalDate dueDate) {
 
         LocalDate today = LocalDate.now();
 
-        // Calculate the number of days until the due date
+        // Calculate days until the due date
         long daysUntilDue = ChronoUnit.DAYS.between(today, dueDate);
 
         // RED: 1-3 days before due date
@@ -29,6 +31,11 @@ public class MiniPeta3DUECategory {
             return "GREEN";
         }
 
+        // Due today
+        else if (daysUntilDue == 0) {
+            return "DUE TODAY";
+        }
+
         // Already overdue
         else if (daysUntilDue < 0) {
             return "OVERDUE";
@@ -38,6 +45,14 @@ public class MiniPeta3DUECategory {
         else {
             return "NO CATEGORY";
         }
+    }
+
+    @Test
+    public void testDueCategory() {
+        LocalDate today = LocalDate.now();
+        System.out.println("Category (2 days out): " + getCategory(today.plusDays(2)));
+        System.out.println("Category (5 days out): " + getCategory(today.plusDays(5)));
+        System.out.println("Category (8 days out): " + getCategory(today.plusDays(8)));
     }
 
     public static void main(String[] args) {
@@ -50,14 +65,20 @@ public class MiniPeta3DUECategory {
         System.out.print("Enter due date (YYYY-MM-DD): ");
         String dateInput = scanner.nextLine();
 
-        LocalDate dueDate = LocalDate.parse(dateInput);
+        try {
+            LocalDate dueDate = LocalDate.parse(dateInput);
 
-        String category = getCategory(dueDate);
+            String category = getCategory(dueDate);
 
-        System.out.println("\n--- TASK INFORMATION ---");
-        System.out.println("Task: " + taskName);
-        System.out.println("Due Date: " + dueDate);
-        System.out.println("Category: " + category);
+            System.out.println("\n--- TASK INFORMATION ---");
+            System.out.println("Task: " + taskName);
+            System.out.println("Due Date: " + dueDate);
+            System.out.println("Category: " + category);
+
+        } catch (Exception e) {
+            System.out.println("Invalid date!");
+            System.out.println("Please use the format YYYY-MM-DD.");
+        }
 
         scanner.close();
     }

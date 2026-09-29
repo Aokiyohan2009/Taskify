@@ -2,7 +2,7 @@ package com.example.sampleapplicationfordemo.quarter2.practicalexam;
 
 import java.util.Scanner;
 
-public class ArcadeMenu {
+public class ArcadeCounterTest {
     public void start(Scanner scanner) {
         int choice;
         do {
