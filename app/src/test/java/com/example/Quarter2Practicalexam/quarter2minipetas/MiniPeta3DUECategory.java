@@ -50,9 +50,9 @@ public class MiniPeta3DUECategory {
     @Test
     public void testDueCategory() {
         LocalDate today = LocalDate.now();
-        System.out.println("Category (2 days out): " + getCategory(today.plusDays(2)));
-        System.out.println("Category (5 days out): " + getCategory(today.plusDays(5)));
-        System.out.println("Category (8 days out): " + getCategory(today.plusDays(8)));
+        System.out.println("MinePeta 1 (2 days out): " + getCategory(today.plusDays(2)));
+        System.out.println("MiniPeta 2 (5 days out): " + getCategory(today.plusDays(5)));
+        System.out.println("MajorPeta 3 (8 days out): " + getCategory(today.plusDays(8)));
     }
 
     public static void main(String[] args) {
