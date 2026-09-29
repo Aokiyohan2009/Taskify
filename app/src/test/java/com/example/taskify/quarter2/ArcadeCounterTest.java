@@ -1,4 +1,4 @@
-package com.example.sampleapplicationfordemo.quarter2.practicalexam;
+package com.example.taskify.quarter2;
 
 import java.util.Scanner;
 
