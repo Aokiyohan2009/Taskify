@@ -22,5 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Taskify"
+rootProject.name = "Quarter2"
 include(":app")
