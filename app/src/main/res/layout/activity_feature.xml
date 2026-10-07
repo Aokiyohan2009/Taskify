@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".feature">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="554dp"
+        android:layout_height="88dp"
+        android:background="#F6E569"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="2dp"
+        tools:ignore="MissingConstraints,VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="132dp"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar6"
+        android:layout_width="295dp"
+        android:layout_height="64dp"
+        android:background="#FFEB3B"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="208dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task name"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="226dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Peta"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="236dp"
+        tools:layout_editor_absoluteY="226dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="288dp"
+        android:layout_height="95dp"
+        android:text="Input task here"
+        android:textColorLink="#FABC07"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="103dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar8"
+        android:layout_width="297dp"
+        android:layout_height="64dp"
+        android:background="#FFEB3B"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="288dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Math trivia"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="303dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar9"
+        android:layout_width="426dp"
+        android:layout_height="262dp"
+        android:background="#FFEB3B"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="428dp"
+        tools:ignore="MissingConstraints,VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Due date"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="449dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="[Past due]"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="264dp"
+        tools:layout_editor_absoluteY="449dp"
+        tools:ignore="HardcodedText,MissingConstraints,VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add new task"
+        android:textSize="60sp"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="511dp"
+        tools:ignore="HardcodedText,MissingConstraints,VisualLintBounds" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="142dp"
+        android:layout_height="102dp"
+        app:srcCompat="@mipmap/logo_foreground"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="591dp"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
