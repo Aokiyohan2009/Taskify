@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFD08A"
+    android:textAlignment="viewEnd"
+    tools:context=".LoginActivityBee">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="212dp"
+        android:layout_height="67dp"
+        android:fontFamily="cursive"
+        android:text="Welcome!"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#F4A701"
+        android:textColorHighlight="#FAC601"
+        android:textSize="48sp"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="-7dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="To the Organized Hive of The Busy Bees!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FFA601"
+        android:textColorHighlight="#FFC107"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="363dp"
+        android:layout_height="287dp"
+        android:background="#FFFEFE"
+        android:backgroundTint="#FFFFFF"
+        android:src="@mipmap/beeorganized_foreground"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="104dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="176dp"
+        android:layout_height="42dp"
+        android:backgroundTint="#FFCC00"
+        android:text="Login!"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FBB300"
+        android:textColorLink="#FDB300"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="597dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="157dp"
+        android:layout_height="21dp"
+        android:text="Do you have an account?"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="531dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="175dp"
+        android:layout_height="44dp"
+        android:backgroundTint="#FFAE00"
+        android:text="Sign Up!"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="552dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
