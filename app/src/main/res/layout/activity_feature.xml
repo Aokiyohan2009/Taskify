@@ -7,150 +7,237 @@
     android:layout_height="match_parent"
     tools:context=".feature">
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar3"
-        android:layout_width="554dp"
-        android:layout_height="88dp"
-        android:background="#F6E569"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="2dp"
-        tools:ignore="MissingConstraints,VisualLintBounds" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".feature">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="132dp"
-        tools:ignore="MissingConstraints" />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="426dp"
+            android:layout_height="734dp"
+            app:srcCompat="@drawable/b93ef7d8_3cb9_4300_978e_4cc9f5ce7697"
+            tools:layout_editor_absoluteX="-8dp"
+            tools:layout_editor_absoluteY="-2dp" />
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar6"
-        android:layout_width="295dp"
-        android:layout_height="64dp"
-        android:background="#FFEB3B"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="208dp"
-        tools:ignore="MissingConstraints" />
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="270dp"
+            android:layout_height="46dp"
+            android:background="#F8DA28"
+            android:backgroundTint="#FDDC59"
+            android:text="Task Name - DUE TODAY"
+            android:textColor="#000000"
+            android:textSize="23sp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="308dp" />
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Task name"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="50dp"
-        tools:layout_editor_absoluteY="226dp"
-        tools:ignore="HardcodedText,MissingConstraints" />
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="270dp"
+            android:layout_height="46dp"
+            android:background="#F8DA28"
+            android:backgroundTint="#FDDC59"
+            android:text="Task Name - DUE IN 2 DAYS"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="408dp" />
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Peta"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="236dp"
-        tools:layout_editor_absoluteY="226dp"
-        tools:ignore="HardcodedText,MissingConstraints" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="132dp" />
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="288dp"
-        android:layout_height="95dp"
-        android:text="Input task here"
-        android:textColorLink="#FABC07"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="103dp"
-        tools:ignore="HardcodedText,MissingConstraints" />
+        <Button
+            android:id="@+id/button"
+            android:layout_width="98dp"
+            android:layout_height="95dp"
+            android:backgroundTint="#FAFAFA"
+            android:text="Button"
+            android:textColor="#000000"
+            android:textColorLink="#000000"
+            tools:layout_editor_absoluteX="294dp"
+            tools:layout_editor_absoluteY="90dp" />
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar8"
-        android:layout_width="297dp"
-        android:layout_height="64dp"
-        android:background="#FFEB3B"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="288dp"
-        tools:ignore="MissingConstraints" />
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="316dp"
+            android:layout_height="36dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="Search for your task..."
+            android:textColor="#000000"
+            tools:layout_editor_absoluteX="76dp"
+            tools:layout_editor_absoluteY="31dp" />
 
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Math trivia"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="122dp"
-        tools:layout_editor_absoluteY="303dp"
-        tools:ignore="HardcodedText,MissingConstraints" />
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="152dp"
+            android:layout_height="27dp"
+            android:background="#7DD856"
+            android:text="Task Name"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="131dp" />
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar4"
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
-        android:background="#FFEB3B"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="673dp" />
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="152dp"
+            android:layout_height="27dp"
+            android:background="#E03B28"
+            android:text="Task Name"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="205dp" />
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar7"
-        android:layout_width="140dp"
-        android:layout_height="120dp"
-        android:background="#FFEB3B"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="381dp" />
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="152dp"
+            android:layout_height="27dp"
+            android:background="#F8DA28"
+            android:text="Task Name"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="167dp" />
 
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Due date"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="50dp"
-        tools:layout_editor_absoluteY="394dp" />
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="263dp"
+            android:layout_height="46dp"
+            android:background="#F8DA28"
+            android:backgroundTint="#FDDC59"
+            android:text="Task Name - DUE IN 2 DAYS"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="516dp" />
 
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="[Past due]"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="442dp" />
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#EAB812"
+            tools:layout_editor_absoluteY="669dp" />
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar9"
-        android:layout_width="166dp"
-        android:layout_height="126dp"
-        android:background="#FFEB3B"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        tools:layout_editor_absoluteX="210dp"
-        tools:layout_editor_absoluteY="375dp" />
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Add new task"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="218dp"
-        tools:layout_editor_absoluteY="381dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <ImageView
         android:id="@+id/imageView5"
+        android:layout_width="426dp"
+        android:layout_height="734dp"
+        app:srcCompat="@drawable/b93ef7d8_3cb9_4300_978e_4cc9f5ce7697"
+        tools:layout_editor_absoluteX="-8dp"
+        tools:layout_editor_absoluteY="-2dp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="270dp"
+        android:layout_height="46dp"
+        android:background="#F8DA28"
+        android:backgroundTint="#FDDC59"
+        android:text="Task Name - DUE TODAY"
+        android:textColor="#000000"
+        android:textSize="23sp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="308dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="270dp"
+        android:layout_height="46dp"
+        android:background="#F8DA28"
+        android:backgroundTint="#FDDC59"
+        android:text="Task Name - DUE IN 2 DAYS"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="408dp" />
+
+    <TextView
+        android:id="@+id/textView26"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/logo_foreground"
-        tools:layout_editor_absoluteX="236dp"
-        tools:layout_editor_absoluteY="413dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="132dp" />
 
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="98dp"
+        android:layout_height="95dp"
+        android:backgroundTint="#FAFAFA"
+        android:text="Button"
+        android:textColor="#000000"
+        android:textColorLink="#000000"
+        tools:layout_editor_absoluteX="294dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="316dp"
+        android:layout_height="36dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Search for your task..."
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="152dp"
+        android:layout_height="27dp"
+        android:background="#7DD856"
+        android:text="Task Name"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="152dp"
+        android:layout_height="27dp"
+        android:background="#E03B28"
+        android:text="Task Name"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="152dp"
+        android:layout_height="27dp"
+        android:background="#F8DA28"
+        android:text="Task Name"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="167dp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="263dp"
+        android:layout_height="46dp"
+        android:background="#F8DA28"
+        android:backgroundTint="#FDDC59"
+        android:text="Task Name - DUE IN 2 DAYS"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="516dp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#EAB812"
+        tools:layout_editor_absoluteY="669dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
