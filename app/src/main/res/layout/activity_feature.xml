@@ -146,11 +146,11 @@
         tools:layout_editor_absoluteY="381dp" />
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="91dp"
-        android:layout_height="92dp"
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         app:srcCompat="@mipmap/logo_foreground"
-        tools:layout_editor_absoluteX="243dp"
-        tools:layout_editor_absoluteY="409dp" />
+        tools:layout_editor_absoluteX="236dp"
+        tools:layout_editor_absoluteY="413dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
