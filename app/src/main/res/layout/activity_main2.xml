@@ -44,7 +44,7 @@
         android:backgroundTint="#FFFFFF"
         android:src="@mipmap/beeorganized_foreground"
         tools:layout_editor_absoluteX="24dp"
-        tools:layout_editor_absoluteY="104dp" />
+        tools:layout_editor_absoluteY="102dp" />
 
     <Button
         android:id="@+id/button3"
