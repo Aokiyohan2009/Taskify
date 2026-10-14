@@ -7,8 +7,129 @@
     android:layout_height="match_parent"
     tools:context=".feature">
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".feature">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="426dp"
+            android:layout_height="734dp"
+            app:srcCompat="@drawable/b93ef7d8_3cb9_4300_978e_4cc9f5ce7697"
+            tools:layout_editor_absoluteX="-8dp"
+            tools:layout_editor_absoluteY="-2dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="270dp"
+            android:layout_height="46dp"
+            android:background="#F8DA28"
+            android:backgroundTint="#FDDC59"
+            android:text="Task Name - DUE TODAY"
+            android:textColor="#000000"
+            android:textSize="23sp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="308dp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="270dp"
+            android:layout_height="46dp"
+            android:background="#F8DA28"
+            android:backgroundTint="#FDDC59"
+            android:text="Task Name - DUE IN 2 DAYS"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="408dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="132dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="98dp"
+            android:layout_height="95dp"
+            android:backgroundTint="#FAFAFA"
+            android:text="Button"
+            android:textColor="#000000"
+            android:textColorLink="#000000"
+            tools:layout_editor_absoluteX="294dp"
+            tools:layout_editor_absoluteY="90dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="316dp"
+            android:layout_height="36dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="Search for your task..."
+            android:textColor="#000000"
+            tools:layout_editor_absoluteX="76dp"
+            tools:layout_editor_absoluteY="31dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="152dp"
+            android:layout_height="27dp"
+            android:background="#7DD856"
+            android:text="Task Name"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="131dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="152dp"
+            android:layout_height="27dp"
+            android:background="#E03B28"
+            android:text="Task Name"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="205dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="152dp"
+            android:layout_height="27dp"
+            android:background="#F8DA28"
+            android:text="Task Name"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="167dp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="263dp"
+            android:layout_height="46dp"
+            android:background="#F8DA28"
+            android:backgroundTint="#FDDC59"
+            android:text="Task Name - DUE IN 2 DAYS"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="516dp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#EAB812"
+            tools:layout_editor_absoluteY="669dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageView5"
         android:layout_width="426dp"
         android:layout_height="734dp"
         app:srcCompat="@drawable/b93ef7d8_3cb9_4300_978e_4cc9f5ce7697"
@@ -16,7 +137,7 @@
         tools:layout_editor_absoluteY="-2dp" />
 
     <TextView
-        android:id="@+id/textView11"
+        android:id="@+id/textView24"
         android:layout_width="270dp"
         android:layout_height="46dp"
         android:background="#F8DA28"
@@ -28,7 +149,7 @@
         tools:layout_editor_absoluteY="308dp" />
 
     <TextView
-        android:id="@+id/textView13"
+        android:id="@+id/textView25"
         android:layout_width="270dp"
         android:layout_height="46dp"
         android:background="#F8DA28"
@@ -40,15 +161,15 @@
         tools:layout_editor_absoluteY="408dp" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView26"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="132dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="132dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button8"
         android:layout_width="98dp"
         android:layout_height="95dp"
         android:backgroundTint="#FAFAFA"
@@ -59,7 +180,7 @@
         tools:layout_editor_absoluteY="90dp" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/button9"
         android:layout_width="316dp"
         android:layout_height="36dp"
         android:backgroundTint="#FFFFFF"
@@ -69,7 +190,7 @@
         tools:layout_editor_absoluteY="31dp" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textView27"
         android:layout_width="152dp"
         android:layout_height="27dp"
         android:background="#7DD856"
@@ -80,7 +201,7 @@
         tools:layout_editor_absoluteY="131dp" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/textView28"
         android:layout_width="152dp"
         android:layout_height="27dp"
         android:background="#E03B28"
@@ -91,7 +212,7 @@
         tools:layout_editor_absoluteY="205dp" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/textView29"
         android:layout_width="152dp"
         android:layout_height="27dp"
         android:background="#F8DA28"
@@ -102,7 +223,7 @@
         tools:layout_editor_absoluteY="167dp" />
 
     <TextView
-        android:id="@+id/textView14"
+        android:id="@+id/textView30"
         android:layout_width="263dp"
         android:layout_height="46dp"
         android:background="#F8DA28"
@@ -114,10 +235,9 @@
         tools:layout_editor_absoluteY="516dp" />
 
     <TextView
-        android:id="@+id/textView15"
+        android:id="@+id/textView31"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#EAB812"
         tools:layout_editor_absoluteY="669dp" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
