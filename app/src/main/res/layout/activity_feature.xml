@@ -7,43 +7,84 @@
     android:layout_height="match_parent"
     tools:context=".feature">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/main"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".feature"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-43dp">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/backgrounchh"
+        tools:layout_editor_absoluteY="0dp" />
 
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="426dp"
-            android:layout_height="734dp"
-            app:srcCompat="@drawable/b93ef7d8_3cb9_4300_978e_4cc9f5ce7697"
-            tools:layout_editor_absoluteX="1dp"
-            tools:layout_editor_absoluteY="-2dp" />
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/hehe"
+        tools:layout_editor_absoluteX="-7dp"
+        tools:layout_editor_absoluteY="74dp" />
 
-        <TextView
-            android:id="@+id/textView11"
-            android:layout_width="270dp"
-            android:layout_height="46dp"
-            android:background="#F8DA28"
-            android:backgroundTint="#FDDC59"
-            android:text="Task Name - DUE TODAY"
-            android:textColor="#000000"
-            android:textSize="23sp"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="312dp" />
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="308dp"
+        android:layout_height="219dp"
+        app:srcCompat="@drawable/kek"
+        tools:layout_editor_absoluteX="-93dp"
+        tools:layout_editor_absoluteY="-15dp" />
 
-        <TextView
-            android:id="@+id/textView13"
-            android:layout_width="270dp"
-            android:layout_height="46dp"
-            android:background="#F8DA28"
-            android:backgroundTint="#FDDC59"
-            android:text="Task Name - DUE IN 2 DAYS"
-            android:textColor="#000000"
-            android:textSize="20sp"
-            tools:layou
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="412dp"
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="248dp"
+        android:layout_height="293dp"
+        app:srcCompat="@drawable/yokie"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="34dp" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="256dp"
+        android:layout_height="292dp"
+        app:srcCompat="@drawable/dugo"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="280dp"
+        android:layout_height="271dp"
+        app:srcCompat="@drawable/sun"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="291dp"
+        android:layout_height="350dp"
+        app:srcCompat="@drawable/jreen"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="309dp"
+        android:layout_height="367dp"
+        app:srcCompat="@drawable/vahay"
+        tools:layout_editor_absoluteX="-82dp"
+        tools:layout_editor_absoluteY="547dp" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="452dp"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/burd"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="606dp" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="140dp"
+        android:layout_height="149dp"
+        app:srcCompat="@drawable/puso"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="633dp" />
+
